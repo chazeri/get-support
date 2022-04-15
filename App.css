@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height:auto ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+  .donor > img {
+  height: 200px;
+  width: 200px;
+  margin: 10px; 
+  border-radius: 50px;
+  }
+
+.about{
+padding-top: 100px;
+padding-left:20px ;
+}
+
+.aboutus{
+/* padding-top: 100px; */
+padding-left: 20px;
+display: inline-flex;
+} 
+.abtext{
+  display: block;
+}
+
+.aboutus > img{
+height: 450px;
+width: 700px;
+border-radius: 50px;
+}
+ 
+  
+    
+  
+    
+  .about button{
+      background-color:rgb(44, 130, 201);
+      border-radius: 50px;
+      border-width: 0;
+      box-shadow: rgba(44, 130, 201) 0 0 1px 0, rgba(11, 127, 171, .1)  0 3px 4px 0;
+      color:  oldlace;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Arial,sans-serif;
+      font-size: 1em;
+      height: 50px;
+      padding: 0 25px;
+      transition: all 200ms;
+    }
+    
+  
+    
+  
+    .abttext{
+      padding-left: 25px;
+      padding-top: 150px;
+      display:block;
+      }
+
+.sme > img{
+  height:300px;
+  width: 300px ;
+  margin: 15px;
+  border-radius: 50px;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
